@@ -1,1 +1,2 @@
-# janken04
+# 04_janken
+
