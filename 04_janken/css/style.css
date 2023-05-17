@@ -1,0 +1,151 @@
+.abc {
+  display: none; 
+}
+
+.d {
+  font-size: 40px;
+  color: white;
+  background-color: blue;
+}
+
+body {
+  /* background-color: chocolate; */
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 32px;
+}
+header {
+  /* background-color: orange; */
+  /* border-bottom: 1px solid #ccc; */
+  text-align: center;
+}
+h1 {
+  font-size: 40px;
+  font-weight: bold;
+  padding: 30px;
+}
+main {
+  /* border-bottom:1px solid #ccc; */
+  font-size: 50px;
+  /* font-weight: bold; */
+}
+.btn_abc {
+  font-size: 40px;
+}
+#judgment {
+  padding-top: 20px;
+  font-size: 25px;
+  color: palevioletred;
+  font-weight: bold;
+}
+.text_aa {
+  font-size: 30px;
+  padding-top: 30px;
+}
+footer {
+  background-color: orange;
+  /* border-bottom:1px solid #ccc; */
+  text-align: center;
+  margin-top: 350px;
+  font-size: 50px;
+}
+p {
+  font-size: 30px;
+  /* text-align: center; */
+  /* border-bottom:1px solid #fff; */
+  /* height:200px; */
+}
+ul {
+  padding: 0px;
+  /* border-top: 1px solid #000000; */
+  display: table; /* 定義 */
+  table-layout: fixed;
+  width: 100%;
+  color: orange;
+  font-weight: bold;
+}
+li {
+  list-style-type: none;
+  padding: 10px;
+  border: 2px solid white;
+  background-color: blue;
+  display: table-cell; /* 定義 */
+  cursor: pointer;
+  color: whitesmoke;
+}
+li:hover {
+  background: orchid;
+  color: whitesmoke;
+}
+.rabbit {
+  width: 70px;
+  height: auto;
+}
+.kame {
+  width: 90px;
+  height: auto;
+}
+.result_a {
+  color: red;
+  font-size: 30px;
+}
+
+.result_b {
+  color: blue;
+  font-size: 30px;
+}
+
+.finish_a {
+  color: blue;
+  font-size: 50px;
+}
+.finish_b {
+  color: red;
+  font-size: 50px;
+}
+.rabbit_wrap {
+  padding-bottom: 30px;
+  /* width: 450px; */
+  display: flex;
+}
+
+.rabbit_position {
+  position: relative;
+  width: 80%;
+  height: 70px;
+  margin-left: 10%;
+}
+
+.kame_position {
+  position: relative;
+  width: 80%;
+  height: 70px;
+  margin-left: 10%;
+}
+.kame_wrap {
+  padding-bottom: 30px;
+  width: 350px;
+  display: flex;
+}
+.goal {
+  width: 200px;
+  text-align: right;
+}
+.goal_wrap {
+  padding-bottom: 30px;
+  text-align: right;
+}
+
+/* これが親、今回は画面全体に対してであるので不要
+  position: relative; */
+.u_set {
+  position: absolute;
+  left: 10%;
+}
+
+.k_set {
+  position: absolute;
+  left: 10%;
+}
+/* コンピュータの手は左に用意する（グーチョキパー） */

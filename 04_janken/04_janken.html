@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <!-- reset.cssを用意すると共に、下記2行を追加すること-->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>じゃんけんアプリの挑戦03</title>
+    <!-- htmlの中にjsを入れ込むためには↓を記載する
+    <script src="js/jquery-2.1.3.min.js"></script> -->
+
+</head>
+
+<body>
+    <header>
+        <!-- ヘッダーの色を全体的に変えたい -->
+        <h1>じゃんけんグリコで10点 勝負だぞ！！</h1>
+    </header>
+
+
+    <main>
+        <button class="d easy">【初級】</button>
+        <button class="d difficult">【上級】</button>
+
+        <div class="abc">
+            <div class="f"></div>
+
+            <!-- じゃんけん3種選択 -->
+        <div class="btn_abc">
+        <ul>
+            <li id="gu_btn">グリコ</li>
+            <li id="choki_btn">チョコレート</li>
+            <li id="pa_btn">パイナップル</li>
+        </ul>
+
+        <div class="text_aa">チョコレートとパイナップルで勝つと2倍進むよ。上級はそういかないけど。
+            <span id="pc_hands">あいこはやり直し！！</span>
+        </div>
+
+        <div id="judgment">途中経過はここで確認できるよ！！</div>
+        </div>
+        <div class="goal_wrap">
+        <div class="goal_flag">
+            <img src="./img/goal.png" alt="" class="goal">
+        </div>
+        </div>
+        
+				<div class="rabbit_position">
+					<div class="u_set">
+						<img src="./img/rabbit.png" alt="" class="rabbit">
+						<p>CP</p>
+					</div>
+				</div>
+	
+        <div class="rabbit_wrap">
+					<div id="judgment_a">0</div>
+					<p>点</p>
+            <!-- 文字を表示させる場所↓ -->
+          <div class="result_a"></div>
+        </div>            
+        
+				<div class="kame_position">
+					<div class="k_set">
+						<img src="./img/kame3.png" alt="" class="kame">
+						<p>あなた</p>
+					</div>
+				</div>
+				
+        <div class="kame_wrap">
+					<div id="judgment_b">0</div>
+					<p>点</p>
+          <!-- 文字を表示させる場所↓ -->
+          <div class="result_b"></div>
+        </div>
+
+        
+
+        <!--コンピュータの手は左に用意する（グーチョキパー）  -->
+        <div class="finish_a"></div>
+        <div class="finish_b"></div>
+    </main>
+</div>
+    <!-- <footer>昔よくやったな~これをリアル版で。良く負けてたわ（笑）</footer> -->
+
+
+<!-- jsのシートに飛ばすための2行 -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="js/04_janken.js"></script>
+</body>
+</html>
